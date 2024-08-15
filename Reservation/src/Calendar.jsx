@@ -67,9 +67,9 @@ const Calendar = () => {
 
     return (
         <div className="calendar">
-            {renderHeader}
-            {renderDays}
-            {renderCells}
+            {renderHeader()}
+            {renderDays()}
+            {renderCells()}
         </div>
     )
 }
