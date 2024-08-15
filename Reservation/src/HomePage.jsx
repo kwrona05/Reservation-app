@@ -1,6 +1,8 @@
 import React from "react";
 import Nav from "./Nav";
 import './App.css';
+import Calendar from "./Calendar"
+
 
 
 const HomePage = () => {
@@ -9,6 +11,7 @@ const HomePage = () => {
       <h1>Welcome on our website</h1>
       <p>Please go to booking form below</p>
       <Nav />
+      <Calendar />
     </div>
   )
 }
