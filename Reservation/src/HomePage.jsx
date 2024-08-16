@@ -9,7 +9,8 @@ const HomePage = () => {
   return(
     <div className="main">
       <h1>Welcome on our website</h1>
-      <p>Please go to booking form below</p>
+      <p>Please go to "New Booking" to see booking form.</p>
+      <p>You can see all your reservations in "Booking" tile</p>
       <Nav />
       <Calendar />
     </div>
