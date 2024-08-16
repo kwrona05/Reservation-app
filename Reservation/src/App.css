@@ -4,7 +4,7 @@
 }
 
 body {
-background-color: #FFEFD5;
+background-color: #00BFFF;
 }
 
 .main {
@@ -18,29 +18,42 @@ background-color: #FFEFD5;
 h1 {
   display: flex;
   justify-content: center;
-  background-color: #FFDAB9;
+  background-color: #87CEFA;
   font-size: 56px;
-  width: 1440px;
+  width: 650px;
+  border-radius: 10px;
 }
 
 p {
   display: grid;
-  background-color: #FFDAB9;
+  background-color: #87CEFA;
   justify-content: center;
   font-size: 28px;
-  width: 1440px;
+  width: 650px;
+  border-radius: 10px;
 }
 
-Nav {
-  background-color: #FFDAB9;
-  width: 1440px;
+.liTile {
+  background-color: #87CEFA;
+  width: 200px;
+  border-radius: 10px;
+  text-align: center;
+  height: 40px;
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
 }
 
 .ulList {
   display: flex;
+  justify-content: center;
   flex-direction: row;
-  gap: 100px;
+  gap: 30px;
   font-size: 28px;
+  margin-left: -40px;
 }
 
 .calendar {
@@ -48,6 +61,7 @@ Nav {
 border: 1px solid #ddd;
 border-radius: 5px;
 padding: 10px;
+background-color: #87CEFA;
 }
 
 .header {
