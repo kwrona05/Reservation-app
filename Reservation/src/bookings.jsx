@@ -1,7 +1,7 @@
 import React from "react"
 const BookingList = ({ bookings }) => {
     return(
-        <div>
+        <div className="booking-div">
             <h2>Booking List</h2>
             <ul>
                 {bookings.map((booking, index) => (
