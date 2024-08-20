@@ -69,14 +69,33 @@ p {
 }
 
 .booking-div {
-  display: flex;
-  justify-content: center;
   background-color: #00BFFF;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
 }
 
 h2 {
   background-color: #87CEFA;
-  
+  text-align: center;
+  font-size: 56px;
+  width: 650px;
+  border-radius: 10px;
+}
+
+.ul {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.booking-list {
+  text-align: center;
+  font-size: 28px;
+  background-color: #87CEFA;
+  border-radius: 10px;
+  width: 500px;
 }
 .calendar {
   width: 650px;
