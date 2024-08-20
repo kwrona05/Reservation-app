@@ -3,13 +3,13 @@ const BookingList = ({ bookings }) => {
     return(
         <div className="booking-div">
             <h2>Booking List</h2>
-            <ul>
+            <div className="ul">
                 {bookings.map((booking, index) => (
-                    <li key={index}>
+                    <div key={index} className="booking-list">
                         {booking.name} - {booking.date}
-                    </li>
+                    </div>
                 ))}
-            </ul>
+            </div>
         </div>
     )
 }
