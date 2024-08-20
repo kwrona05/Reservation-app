@@ -13,14 +13,14 @@ const BookingForm = ({ onSubmit }) => {
     }
 
     return(
-        <form onSubmit = {handleSubmit}>
+        <form onSubmit = {handleSubmit} className="form">
             <label>
                 Name:
-                <input type="text" value={name} onChange={(e) => setName(e.target.value)} required></input>
+                <input type="text" value={name} onChange={(e) => setName(e.target.value)} className="name-input" required></input>
             </label>
             <label>
                 Date:
-                <input type="date" value={date} onChange={(e) => setDate(e.target.value)} required></input>
+                <input type="date" value={date} onChange={(e) => setDate(e.target.value)} className="date-input"required></input>
             </label>
             <button type="submit">Book</button>
         </form>
